@@ -7,7 +7,8 @@ public class Forloop1 {
 		for (int i = 0; i < 7; i++) {
 			System.out.println("the value of variable i is");
 			
-			vulue = value +2; 
+			value = value +2; 
 		}
+		System.out.println(value);
 	}
 }
