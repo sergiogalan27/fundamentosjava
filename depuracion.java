@@ -1,5 +1,9 @@
 package fundamentosjava;
-
+/**
+ * 
+ * @author sergio
+ *15 sept 2026
+ */
 public class depuracion {
 	public class EjemploDebug {
 	    public static void main(String[] args) {
