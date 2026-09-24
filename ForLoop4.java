@@ -1,20 +1,42 @@
 package fundamentosjava;
 
 public class ForLoop4 {
-	
+
 	public static void main(String[] args) {
-		//add all numbers from 1 to 10
+		// add all numbers from 1 to 10
 		/**
-		 * Step 1: what variables
-		 * should we create to model 
-		 * the problem
+		 * Step 1: what variables should we create to model the problem
 		 */
-		int sum = 1 + 2 + 3 + 4 + 5;//20
+		int sum = 1 + 2 + 3 + 4 + 5;// 20
 		System.out.println(sum);
 		sum = 0;
-		for (int i = 0; i < 10; i++) {
-			
-		}
-	}
+		// first step
+		sum = sum + 1;
+		// second step
+		sum = sum + 2;
+		// third step
+		sum = sum + 3;
+		// fourth step
+		sum = sum + 4;
+		System.out.println(sum);
 
+		sum = 0;
+		int j = 0;
+
+		j++;
+		sum = sum + j;
+
+		j++;
+		sum = sum + j;
+
+		j++;
+		sum = sum + j;
+
+		for (int i = 0; i < 10;) {
+			System.out.println(i + 1);
+			i++;
+			sum = sum + i;
+		}
+		System.out.println(sum);
+	}
 }
