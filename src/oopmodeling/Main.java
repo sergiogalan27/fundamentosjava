@@ -23,8 +23,10 @@ public class Main {
         System.out.println(c2.area());
         System.out.println(c3.area());
 
-
-
-
+        Book b1=
+                new Book(12, "beyond good and evil");
+        System.out.println(b1.category);
+        b1.category = "science fiction";
+        System.out .println(b1.category);
     }
 }
