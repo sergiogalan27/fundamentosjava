@@ -5,6 +5,9 @@ package oopmodeling;
  * @created 08/10/2026
  */
 public class Main {
+    public Main() {
+    }
+
     static void main(String[]args){
         // create three objects from "Circle" class
 
@@ -27,6 +30,19 @@ public class Main {
                 new Book(12, "beyond good and evil");
         System.out.println(b1.category);
         b1.category = "science fiction";
-        System.out .println(b1.category);
+        System.out.println(b1.category);
+
+        Book b2=
+                new Book(13,"spiderman");
+        System.out.println(b2.category);
+        b2.category ="adventures";
+        System.out.println(b2.category);
+
+        Book b3=
+                new Book(14,"harry potter");
+        System.out.println(b3.category);
+        b2.category ="mystery";
+        System.out.println(b3.category);
     }
 }
+

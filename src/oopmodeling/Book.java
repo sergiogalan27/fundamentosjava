@@ -29,6 +29,15 @@ public class Book {
         this.title = title;
     }
 
+    /**
+     *
+     * @param id
+     * @param title
+     * @param author
+     * @param releaseDate
+     * @param numOfPages
+     * @param category
+     */
     public Book(long id, String title, String author, Date releaseDate, int numOfPages, String category) {
         this.id = id;
         this.title = title;
@@ -37,5 +46,12 @@ public class Book {
         this.numOfPages = numOfPages;
         this.category = category;
     }
-//part 3 methods
+    //part 3 methods
+
+    public Book() {
+    }
+
+
 }
+
+
