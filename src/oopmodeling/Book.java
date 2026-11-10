@@ -50,7 +50,11 @@ public class Book {
 
     public Book() {
     }
-
+    public static void main(String[] args) {
+        Book book = new Book(1L, "El Quijote");
+        book.category = "Novela";
+        System.out.println("Libro: " + book.title + " | Categoría: " + book.category);
+    }
 
 }
 
