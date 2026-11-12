@@ -1,5 +1,7 @@
 package oopmodeling;
 
+import oopmodeling.math.Circle;
+
 /**
  * @author sergio
  * @created 08/10/2026

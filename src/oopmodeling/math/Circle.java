@@ -1,4 +1,4 @@
-package oopmodeling;
+package oopmodeling.math;
 
 /**
  * @author sergio

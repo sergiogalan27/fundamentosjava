@@ -1,4 +1,4 @@
-package oopmodeling;
+package oopmodeling.animal;
 
 /**
  * @author sergio
