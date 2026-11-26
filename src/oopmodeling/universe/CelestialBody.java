@@ -18,5 +18,6 @@ public class CelestialBody {
     }
 
     public CelestialBody() {
+        super();
     }
 }
